@@ -75,3 +75,19 @@ img {
         opacity: 0;
     }
 }
+ul {
+    color: #7a1f3d;
+}
+a {
+    color: #8e5a5a;
+}
+a:hover {
+    color: #5e1730;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 25px;
+}
