@@ -8,6 +8,7 @@ body {
 background-color: #fff8f0;
 border:2px solid black ;
 border-radius: 18px;
+line-height: 40px;
 }
 .hero {
 background-color: #f8efe5;
@@ -91,7 +92,9 @@ a:hover {
     gap: 10px;
     font-size: clamp(15px, 4vw, 25px);
 }
-
+ul {
+    color: #7a1f3d;
+}
 
 
 
