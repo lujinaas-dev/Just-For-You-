@@ -1,0 +1,81 @@
+body {
+    background-color: #f7f3f0;
+}
+#message {
+    display: none;
+}
+.m2 {
+background-color: #fff8f0;
+border:2px solid black ;
+border-radius: 18px;
+width: 60%;
+margin: 0 auto;
+}
+.hero {
+background-color: #f8efe5;
+border:2px solid black ;
+border-radius: 18px;
+text-align: center;
+width: 60%;
+margin: 0 auto;
+margin-bottom: 5px;
+}
+h1 {
+color: #800020;
+font-size: 50px;
+font-weight: bold;
+text-align: center;
+}
+.p1 {
+    color: #4a3535;
+    font-size: 30px;
+    text-align: center;
+}
+button {
+    background-color: #800020;
+    color: #f8efe5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-radius: 18px;
+    border: 1px solid black;
+}
+button:hover {
+    background-color: #5c0017;
+}
+h2 {
+ color: #6b1635;
+ text-align: center;
+}
+.p2 {
+   color:#3d2929 ; 
+   margin-left: 5px;
+   font-size: 20px;
+}
+img {
+    width: 80%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 2px solid black;
+    display: block;
+    margin: auto ;
+}
+.heart {
+    position: fixed;
+    bottom: -20px;
+    font-size: 25px;
+    animation: fly 3s ease-out forwards;
+}
+
+@keyframes fly {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
