@@ -8,7 +8,7 @@ body {
 background-color: #fff8f0;
 border:2px solid black ;
 border-radius: 18px;
-line-height: 40px;
+line-height: 35px;
 }
 .hero {
 background-color: #f8efe5;
@@ -89,8 +89,13 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     font-size: clamp(15px, 4vw, 25px);
+    border: double black;
+    border-radius: 22px;
+    width: 40%;
+    margin: auto;
+    padding: 8px;
+    margin-bottom: 5px;
 }
 ul {
     color: #7a1f3d;
