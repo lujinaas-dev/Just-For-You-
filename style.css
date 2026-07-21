@@ -90,12 +90,6 @@ a:hover {
     align-items: center;
     justify-content: center;
     font-size: clamp(15px, 4vw, 25px);
-    border: double black;
-    border-radius: 22px;
-    width: 40%;
-    margin: auto;
-    padding: 8px;
-    margin-bottom: 5px;
 }
 ul {
     color: #7a1f3d;
