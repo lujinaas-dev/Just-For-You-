@@ -42,11 +42,13 @@ button:hover {
 h2 {
  color: #6b1635;
  text-align: center;
+ font-size: clamp(16px, 4vw, 30px);
+ font-weight: bold;
 }
 .p2 {
    color:#3d2929 ; 
    margin-left: 5px;
-   font-size: clamp(20px, 5vw, 35px);
+   font-size: clamp(15px, 5vw, 30px);
 }
 img {
     width: 80%;
@@ -90,5 +92,11 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-size: clamp(15px, 5vw, 30px);
+    font-size: clamp(13px, 4vw, 25px);
 }
+
+
+
+
+
+
